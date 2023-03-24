@@ -1,8 +1,10 @@
-package com.bootcamp.agenciadeviajes;
+package com.bootcamp.agenciadeviajes.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.bootcamp.agenciadeviajes.R;
 
 public class MainActivity extends AppCompatActivity {
 

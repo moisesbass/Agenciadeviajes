@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@+id/landscape_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:minHeight="@dimen/hm_card_demo_min_height"
+    app:contentPadding="@dimen/hm_card_content_padding"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/hm_card_content_margin_top"
+        android:contentDescription="@string/imageView2_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layouut_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompac="@drawable/fondo"/>
+
+    <TextView
+        android:id="@+id/textViewCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/hm_card_landscape_content"
+        android:textAppearance="?attr/textAppearanceBody1"
+        android:layout_marginTop="@dimen/hm_card_content_margin_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layour_comstraintTop_toBottomOf="@+id/imageView2"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="143dp"
+        android:layout_height="316dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo" />
+</com.google.android.material.card.MaterialCardView>

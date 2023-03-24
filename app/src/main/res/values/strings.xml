@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Agencia de viajes</string>
+    <string name="textView_text">Vacaciones de otro mundo</string>
+    <string name="my_button_text">Despega aquí</string>
+    <string name="imageView2_description">Logo</string>
+    <string name="hm_card_landscape_content">Planeta</string>
+
 </resources>
